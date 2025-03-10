@@ -22,7 +22,7 @@ transform = transforms.Compose([
     transforms.ToTensor()
 ])
 
-train_dataset = datasets.ImageFolder(root="data/train", transform=transform)
+train_dataset = datasets.ImageFolder(root=r"D:\animal_footprint_app\ml\animal-footprint\data\OpenAnimalTracks\cropped_imgs\train", transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=1, shuffle=False)
 
 # Extract features and train PNN
