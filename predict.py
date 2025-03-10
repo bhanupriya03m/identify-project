@@ -51,7 +51,7 @@ def predict_image(image_path):
     return predicted_class
 
 # ✅ Test with an image
-image_path = r"D:\Final_Year_Project\Animal_footprint_detection\data\cropped_imgs\test\western_grey_squirrel\106.jpg"
+image_path = r"D:\Final_Year_Project\Animal_footprint_detection\data\cropped_imgs\test\mink\184.jpg"
 predicted_animal = predict_image(image_path)
 
 print(f"Final Prediction: {predicted_animal}")
